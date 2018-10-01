@@ -1,0 +1,52 @@
+{
+  "name": "tract-authoring",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "directories": {},
+  "scripts": {
+    "build": "babel index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/plugin-proposal-optional-catch-binding": "^7.0.0-beta.54",
+    "@babel/core": "^7.0.0-beta.50",
+    "babel-cli": "latest",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-polyfill": "^6.26.0",
+    "babel-preset-env": "^1.7.0",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "babel-register": "^6.26.0",
+    "console-error": "latest",
+    "console-info": "latest",
+    "console-warn": "latest",
+    "jsdom": "^11.11.0",
+    "jsdom-global": "^3.0.2"
+  },
+  "dependencies": {
+    "@polymer/polymer": "latest",
+    "@webcomponents/webcomponentsjs": "^2.0.2",
+    "babel-runtime": "^6.26.0",
+    "cli-color": "^1.2.0",
+    "console-info": "latest",
+    "console-warn": "latest",
+    "datatables.net-dt": "^1.10.19",
+    "dom-parser": "^0.1.5",
+    "es6-promise": "latest",
+    "esm": "^3.0.71",
+    "fs-extra": "latest",
+    "isomorphic-fetch": "latest",
+    "json-markup": "^1.1.0",
+    "lodash": "^4.17.10",
+    "lodash-bound": "latest",
+    "path": "^0.12.7",
+    "polymer-webpack-loader": "^2.0.2",
+    "prettyjson": "^1.2.1",
+    "webpack": "^4.16.1",
+    "xml2json": "^0.11.2"
+  }
+}

@@ -1,0 +1,18 @@
+{
+  "root": "/_/reps/apinatomy/tract-authoring",
+  "entrypoint": "src/entry/index.html",
+  "sources": ["src/entry/**/*", "src/dat_manip/**/*"],
+  "npm": true,
+  "lint": {
+    "rules": [
+      "polymer-3"
+    ]
+  },
+  "componentDir": "node_modules",
+  "builds": [
+    {
+      "preset": "es6-unbundled"
+    }
+  ],
+  "moduleResolution": "node"  
+}

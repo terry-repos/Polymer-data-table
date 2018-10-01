@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, minimum-scale=1, initial-scale=1, user-scalable=yes">
+
+  <title>entry app</title>
+  <meta name="description" content="tract-authoring-entry description">
+
+  <!-- See https://goo.gl/OOhYW5 -->
+  <link rel="manifest" href="/manifest.json">
+  <link rel="stylesheet" type="text/css" href="./css/general.css">
+
+  <script src="../external/require.js">
+    require.config({
+      //
+      // paths: {
+      //   'jquery': '../lib/jquery/jquery',
+      //   'underscore': '../lib/underscore/underscore',
+      //   'backbone': '../lib/backbone/backbone',
+      //   'text': '../lib/text/text',
+      //   'jquery-ui': '../vendor/jquery-ui/jquery-ui',
+      //   'fancytree': [
+      //     '../vendor/fancytree/fancytree',
+      //     '../vendor/fancytree/fancytree.table'
+      //   ],
+      // }
+    });
+  </script>
+
+  <script type="javascript">
+    console.log("this far"):
+    let requirejs = require('requirejs');
+  </script>
+
+  <script src="../../node_modules/@webcomponents/webcomponentsjs/webcomponents-loader.js" async></script>
+  <script src="entry-app/entry-app.js" type="module" async></script>
+
+
+</head>
+
+<body>
+  <entry-app></entry-app>
+</body>
+
+</html>

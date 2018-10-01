@@ -1,0 +1,6 @@
+{
+  "name": "entry-app",
+  "short_name": "entry-app",
+  "start_url": "/src/entry/",
+  "display": "standalone"
+}
