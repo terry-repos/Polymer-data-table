@@ -1,4 +1,4 @@
 ## polymer-data-table
 
-A simple ui that allows for add, edit, deleting of json data in table format
+A simple ui to read, add, edit and delete json data in table format
 
